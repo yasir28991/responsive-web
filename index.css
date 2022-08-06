@@ -60,10 +60,24 @@ header a {
     padding: 0;
 }
 
+header a:hover {
+    color: #143774;
+}
+
 nav {
     width: auto;
     padding: 0;
 }
+
+.current-page {
+    border-bottom: #707070 2px solid;
+    margin-bottom: .300em;
+}
+
+.current-page:hover {
+    color: #143774;
+}
+
 /* =========End of All about header========== */
 
 
@@ -75,7 +89,7 @@ a {
 
 a:hover, 
 a:focus {
-    text-decoration: underline;
+    color: #143774;
 }
 
 img {

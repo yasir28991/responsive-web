@@ -27,9 +27,9 @@
 
             <nav>
                 <ul class="container-flex">
-                    <li><a class="current-page" href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about-me.html">About me</a></li>
-                    <li><a href="recent-posts.html">recent post</a></li>
+                    <li><a class="current-page" href="recent-posts.html">recent post</a></li>
                 </ul>
             </nav>
 
@@ -47,11 +47,11 @@
 
             <!-- The featured article -->
 
-            <article class="featured-article">
+            <article class="article">
 
-                <img class="featured-article-img" src="img/life.jpg" alt="The desk image">
+                <!-- Main container of the article -->
 
-                <p class="article-info">July 23, 2019  |  3 comments</p>
+            <div class="article-main">
 
                 <h3 class="article-title">Finding simplicity in life</h3>
 
@@ -60,6 +60,18 @@
                 </p>
 
                 <a href="#" class="article-read-more">CONTINUE READING</a>
+
+            </div>
+
+                <!-- Secondary container of the article -->
+
+                <div class="article-secondary">
+
+                    <img class="featured-article-img" src="img/life.jpg" alt="The desk image">
+
+                    <p class="article-info">July 23, 2019  |  3 comments</p>
+
+                </div>
 
             </article>
 
@@ -175,21 +187,6 @@
         <!-- The side of the webpage -->
 
         <aside class="sidebar">
-
-            <!-- About me -->
-
-            <div class="sidebar-widget">
-                <p class="widget-title">
-                    About me
-                </p>
-
-                <img class="widget-image" src="img/about-me.jpg" alt="John Doe">
-
-                <p class="widget-body">
-                    I find life better, and I'm happier, when things are nice and simple.
-                </p>
-
-            </div>
 
             <!-- Recent posts -->
 
