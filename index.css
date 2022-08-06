@@ -194,7 +194,13 @@ main , aside p {
     object-fit: cover;
 }
 
-/* Sidebar editing "About me" */
+/* Sidebar editing or main = "About me" */
+
+.about-me-img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
 
 .widget-title {
     color: #143774;
